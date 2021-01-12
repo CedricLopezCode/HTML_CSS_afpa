@@ -39,6 +39,7 @@
 	align-items: center;
 	align-content: stretch;
 	max-width: all;
+	flex-wrap: wrap;
 }
 #nav_flex a{
 	text-decoration: none;
