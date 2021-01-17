@@ -109,19 +109,21 @@ body{
 }
 .theme_de_revision{
 	font-size: 50px;
-	background: indigo;
-	color: aqua;
+	background: darkorange;
+	color: red;
 	padding: 10px 20px;
 	margin: 20px;
 }
 .liste_des_sujets{
+	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 .sujet_de_revision{
 	font-size: 30px;
-	background: steelblue;
-	color: lime;
+	background: yellow;
+	color: blue;
 	padding: 10px;
 	margin: 10px;
 }
@@ -131,7 +133,7 @@ body{
 /*---------------------------------------------------------------------------------------------------*/
 	/*Pour entourer le texte*/
 .conteneur{
-	width: 70%;
+	width: 90%;
 	background: blue;
 	margin:auto;
 	padding: 10px;
