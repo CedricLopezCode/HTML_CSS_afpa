@@ -7,7 +7,7 @@ body{
 }
 
 	/*Les NavBars*/
-#nav_generale, #nav_partie_en_cours{
+#nav_generale, .nav_partie_en_cours{
 	background: green;
 	display: flex;
 	justify-content: space-around;
@@ -16,13 +16,13 @@ body{
 	max-width: all;
 	flex-wrap: wrap;
 }
-#nav_generale a, #nav_partie_en_cours a{
+#nav_generale a, .nav_partie_en_cours a{
 	border-radius: 4px;
 }
 #nav_generale a{
 	padding: 10px;
 }
-#nav_partie_en_cours a{
+.nav_partie_en_cours a{
 	text-decoration: none;
 	color: yellow;
 	padding: 5px;
@@ -35,7 +35,7 @@ body{
 #nav_generale a:hover{ 
 	background: red;
 }
-#nav_partie_en_cours a:hover{ 
+.nav_partie_en_cours a:hover{ 
 	background: lime;
 	color: blue;
 }
