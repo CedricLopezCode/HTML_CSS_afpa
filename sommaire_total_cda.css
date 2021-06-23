@@ -59,6 +59,10 @@ body{
 	font-size: 20px;
 	margin: auto;
 }
+.liste_a_faire_apparaitre a img{
+	max-height: 50px;
+	max-width: 50px;
+}
 .interrupteur_et_liste:hover .interrupteur_liste{
 	background: red;
 }
